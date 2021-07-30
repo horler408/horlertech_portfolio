@@ -1,0 +1,20 @@
+--#302003
+--#003203 - Green
+--#232314
+--#6E0B39
+--#C9620E
+--#C68A0C
+--#8B5D18
+--#BD9E49
+--#FBDE39
+--#C65B07--
+#F1C766
+#F19348
+--#4B074D - Purple
+--#E7660E --Brown Gold
+#781201
+#280B0A
+#406E1A - Green
+
+--COLOR PICKER
+imagecolorpicker.com
