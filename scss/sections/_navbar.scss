@@ -2,6 +2,7 @@
 @use "../components/mixins" as *;
 
 .menu {
+  // position: relative;
   @include gradient;
 
   li {

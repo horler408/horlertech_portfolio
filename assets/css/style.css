@@ -10746,6 +10746,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
 .btn-rounded {
   position: relative;
   padding: 0.875rem 3.375rem 0.875rem 1.2rem;
@@ -10783,6 +10793,62 @@ textarea.form-control-lg {
 }
 .btn-rounded:hover i {
   color: #fff;
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 700;
+  color: #443d56;
+}
+.display-2--description {
+  font-size: 1rem;
+  display: block;
+  color: #443d56;
+  margin-top: 1.2rem;
+  text-transform: none;
+}
+@media (min-width: 992px) {
+  .display-2--description {
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(235, 174, 63, 0.95), rgba(240, 206, 143, 0.95));
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.intros .video-box {
+  position: relative;
+}
+.intros .video-box a span i {
+  font-size: 6rem;
+  color: #ebae3f;
+}
+
+.border-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6rem;
+  height: 6rem;
+  border: 0.55rem solid #fff;
+  border-radius: 50%;
+  animation: pulse-border 1500ms linear infinite;
+}
+.border-animation--border-1 {
+  animation-delay: 1000ms;
+}
+.border-animation--border-2 {
+  animation-delay: 1500ms;
 }
 
 .menu {
