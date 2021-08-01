@@ -15,6 +15,7 @@
 #781201
 #280B0A
 #406E1A - Green
+--#b50d10 - Blood red
 
 --COLOR PICKER
 imagecolorpicker.com
