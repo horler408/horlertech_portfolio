@@ -10848,6 +10848,7 @@ textarea.form-control-lg {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   display: inline-block;
+  text-transform: capitalize;
   background-image: linear-gradient(to right, #ebae3f, #f7cf84);
   background-clip: text;
   -webkit-background-clip: text;
@@ -10862,6 +10863,10 @@ textarea.form-control-lg {
 .border-right {
   border-right: 0.1rem solid #dee2e6;
   height: 100%;
+}
+
+.gradient {
+  background: linear-gradient(to right, rgba(235, 174, 63, 0.95), rgba(247, 207, 132, 0.95));
 }
 
 .intro-section {
@@ -11060,6 +11065,44 @@ textarea.form-control-lg {
 }
 .companies__logo-box img:hover {
   filter: grayscale(120);
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+.cta-info__list li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 600;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #443d56;
+}
+.form button a {
+  color: #443d56;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */
