@@ -10958,6 +10958,23 @@ textarea.form-control-lg {
   border-bottom: 1px solid #ebae3f;
 }
 
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+}
+.back-to-top i {
+  color: #443d56;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(235, 174, 63, 0.95), rgba(247, 207, 132, 0.95));
   padding: 10rem 0 0 0;
@@ -11183,6 +11200,9 @@ textarea.form-control-lg {
 
 .form {
   padding: 3rem;
+}
+.form input {
+  color: #443d56;
 }
 .form button {
   border: none;

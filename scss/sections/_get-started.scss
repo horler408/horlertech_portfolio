@@ -32,6 +32,10 @@
 .form {
   padding: 3rem;
 
+  input {
+    color: $typo;
+  }
+
   button {
     border: none;
     color: $typo;
