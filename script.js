@@ -56,8 +56,8 @@ const menu = [
 ];
 
 // ******* set date *******
-// const date = document.getElementById('date');
-// date.innerHTML = new Date().getFullYear();
+const date = document.getElementById('date');
+date.innerHTML = new Date().getFullYear();
 
 // DOM ITEMS
 const menuContainer = document.querySelector('.menu-item');
